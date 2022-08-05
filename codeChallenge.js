@@ -25,8 +25,9 @@ const checkRepeatedValues = (tower) => {
   return repeatedValues;
 };
 /**
- * @param {very_long_type} name           Description.
- * @param {type}           very_long_name Description.
+ * @param {Number} N           currently not used.
+ * @param {Array}           H array containing the heights of the left side of the towers.
+ * @param {Array}           M array containing the heights of the right side of the towers.
  */
 const minCost = (N, H, M) => {
   // Initialising the
